@@ -1,0 +1,1578 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8974387190686040106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HammerToolCharge/PitchCharge
+  m_EditorClassIdentifier: 
+  Name: PitchCharge
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3078164240
+    data2: 2718943383
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-8351074200262093447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drill/DrillRun
+  m_EditorClassIdentifier: 
+  Path: event:/Drill/DrillRun
+  Guid:
+    Data1: 1677324839
+    Data2: 1212068648
+    Data3: 1096439729
+    Data4: 1298437673
+  Banks:
+  - {fileID: -2473913980354496695}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 301419249732656315}
+  MinDistance: 0
+  MaxDistance: 4
+  Length: 42225
+--- !u!114 &-7747567316651152629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UIHover
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UIHover
+  Guid:
+    Data1: -1936981485
+    Data2: 1315112918
+    Data3: -1471063931
+    Data4: -1575306800
+  Banks:
+  - {fileID: -3835193143139713569}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 560
+--- !u!114 &-7148826417525227850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ChargeEnding/ChargeEnding
+  m_EditorClassIdentifier: 
+  Name: ChargeEnding
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1520966778
+    data2: 1313785555
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Charge
+  - Overcharge
+  Exists: 1
+--- !u!114 &-6982607218975894570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drill/TunnelDetectedAlarm
+  m_EditorClassIdentifier: 
+  Path: event:/Drill/TunnelDetectedAlarm
+  Guid:
+    Data1: 1578148223
+    Data2: 1113192952
+    Data3: -31298939
+    Data4: -1289583380
+  Banks:
+  - {fileID: -2473913980354496695}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1580
+--- !u!114 &-6448396358909611843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Tools/HammerToolCooldown
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Tools/HammerToolCooldown
+  Guid:
+    Data1: -1802374584
+    Data2: 1330850639
+    Data3: -200556381
+    Data4: -1379931412
+  Banks:
+  - {fileID: 4824339696154431763}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13417
+--- !u!114 &-6332745488960976918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Resources/Crystal/DestructStageCrystal
+  m_EditorClassIdentifier: 
+  Path: event:/Resources/Crystal/DestructStageCrystal
+  Guid:
+    Data1: 938910019
+    Data2: 1177213589
+    Data3: 2055297163
+    Data4: 1196843943
+  Banks:
+  - {fileID: -3238743703292862907}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 873
+--- !u!114 &-6190760815234920031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Environment.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/TheDrillGame/Build/Desktop/Environment.bank
+  Name: Environment
+  StudioPath: bank:/Environment
+  lastModified: 638278329641704922
+  FileSizes:
+  - Name: Desktop
+    Value: 3101536
+  Exists: 1
+--- !u!114 &-6095247311532071408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Resources/Sulphur/SulphurDestructed
+  m_EditorClassIdentifier: 
+  Path: event:/Resources/Sulphur/SulphurDestructed
+  Guid:
+    Data1: 2144156956
+    Data2: 1158926344
+    Data3: -1281722705
+    Data4: 1222496782
+  Banks:
+  - {fileID: -3238743703292862907}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1034
+--- !u!114 &-4595380966525278637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/StimPackShake
+  m_EditorClassIdentifier: 
+  Path: event:/UI/StimPackShake
+  Guid:
+    Data1: 1785794157
+    Data2: 1132562346
+    Data3: 981919132
+    Data4: -1840872395
+  Banks:
+  - {fileID: -3835193143139713569}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2079
+--- !u!114 &-4537023851272414310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drill/GearShift
+  m_EditorClassIdentifier: 
+  Path: event:/Drill/GearShift
+  Guid:
+    Data1: -1152051967
+    Data2: 1162822171
+    Data3: 1468734877
+    Data4: 1168752440
+  Banks:
+  - {fileID: -2473913980354496695}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 645
+--- !u!114 &-4004970017831895387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Upgrade/GauntletUpgrade
+  m_EditorClassIdentifier: 
+  Path: event:/Upgrade/GauntletUpgrade
+  Guid:
+    Data1: 805661047
+    Data2: 1249145758
+    Data3: -1048626529
+    Data4: -1676238955
+  Banks:
+  - {fileID: -3835193143139713569}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4706
+--- !u!114 &-3835193143139713569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UpgradeTable&UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/TheDrillGame/Build/Desktop/UpgradeTable&UI.bank
+  Name: UpgradeTable&UI
+  StudioPath: bank:/UpgradeTable&UI
+  lastModified: 638278329647394311
+  FileSizes:
+  - Name: Desktop
+    Value: 200480
+  Exists: 1
+--- !u!114 &-3715213648406745513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/TheDrillGame/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638278329641954923
+  FileSizes:
+  - Name: Desktop
+    Value: 2308
+  Exists: 1
+--- !u!114 &-3238743703292862907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Resources.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/TheDrillGame/Build/Desktop/Resources.bank
+  Name: Resources
+  StudioPath: bank:/Resources
+  lastModified: 638278329647230703
+  FileSizes:
+  - Name: Desktop
+    Value: 333696
+  Exists: 1
+--- !u!114 &-2990719181393282228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PlayerStim
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PlayerStim
+  Guid:
+    Data1: 1754529244
+    Data2: 1303345465
+    Data3: 355327630
+    Data4: 1774424739
+  Banks:
+  - {fileID: 4824339696154431763}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2592
+--- !u!114 &-2508856165673210797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PlayerLadder
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PlayerLadder
+  Guid:
+    Data1: 1353836336
+    Data2: 1264485378
+    Data3: 2146795675
+    Data4: 407263979
+  Banks:
+  - {fileID: 4824339696154431763}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-2473913980354496695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Drill.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/TheDrillGame/Build/Desktop/Drill.bank
+  Name: Drill
+  StudioPath: bank:/Drill
+  lastModified: 638278329640139506
+  FileSizes:
+  - Name: Desktop
+    Value: 695616
+  Exists: 1
+--- !u!114 &-2181809506649382668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/SafeCaveGrammo
+  m_EditorClassIdentifier: 
+  Path: event:/Music/SafeCaveGrammo
+  Guid:
+    Data1: -1950777576
+    Data2: 1151303297
+    Data3: 1460653991
+    Data4: 224812413
+  Banks:
+  - {fileID: -6190760815234920031}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 135000
+--- !u!114 &-1102000015817647637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PlayerLight
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PlayerLight
+  Guid:
+    Data1: 2047145801
+    Data2: 1242167632
+    Data3: 1837699262
+    Data4: 18705842
+  Banks:
+  - {fileID: 4824339696154431763}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 370
+--- !u!114 &-988196521513184130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue3D
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue3D
+  Guid:
+    Data1: -1319777193
+    Data2: 1113261164
+    Data3: 685807252
+    Data4: -696337310
+  Banks:
+  - {fileID: 6466389502722491845}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-227612066413721401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Tools/HammerToolCharge
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Tools/HammerToolCharge
+  Guid:
+    Data1: -1929787867
+    Data2: 1254731413
+    Data3: 668215208
+    Data4: 2020914703
+  Banks:
+  - {fileID: 4824339696154431763}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8974387190686040106}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13600
+--- !u!114 &-55844129154730608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PlayerWalk
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PlayerWalk
+  Guid:
+    Data1: -1716856866
+    Data2: 1143314758
+    Data3: 1568490134
+    Data4: 1275638991
+  Banks:
+  - {fileID: 4824339696154431763}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3535077676774118636}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 9040315193747737514}
+  - {fileID: 6466389502722491845}
+  - {fileID: -3715213648406745513}
+  - {fileID: 4824339696154431763}
+  - {fileID: -2473913980354496695}
+  - {fileID: -6190760815234920031}
+  - {fileID: -3238743703292862907}
+  - {fileID: -3835193143139713569}
+  - {fileID: 4243031595835567269}
+  EditorEvents:
+  - {fileID: -988196521513184130}
+  - {fileID: -4537023851272414310}
+  - {fileID: 1594618882269210305}
+  - {fileID: -1102000015817647637}
+  - {fileID: -2990719181393282228}
+  - {fileID: -55844129154730608}
+  - {fileID: 3211879883749185981}
+  - {fileID: -6095247311532071408}
+  - {fileID: -6332745488960976918}
+  - {fileID: 8881778554180518688}
+  - {fileID: 7106179820869437020}
+  - {fileID: 7674844183342119636}
+  - {fileID: 967893306635456777}
+  - {fileID: 1933361326710470029}
+  - {fileID: 8416681855270748516}
+  - {fileID: 2940276815840301740}
+  - {fileID: 5608049327243071140}
+  - {fileID: 4101771879456976893}
+  - {fileID: 4326860228372527667}
+  - {fileID: -4004970017831895387}
+  - {fileID: 3407991839201535944}
+  - {fileID: 7423500977064695265}
+  - {fileID: 369772461817560145}
+  - {fileID: 3316196543244316670}
+  - {fileID: 7111729383557479038}
+  - {fileID: -8351074200262093447}
+  - {fileID: -6982607218975894570}
+  - {fileID: -2508856165673210797}
+  - {fileID: 6680022142462119820}
+  - {fileID: 601682414194876543}
+  - {fileID: 4223575514193764894}
+  - {fileID: 4414630860217550023}
+  - {fileID: -2181809506649382668}
+  - {fileID: 2668161088261657200}
+  - {fileID: -227612066413721401}
+  - {fileID: -6448396358909611843}
+  - {fileID: 54853756037749093}
+  - {fileID: 1226903339999826011}
+  - {fileID: 2337325986164770498}
+  - {fileID: 3944970069167614288}
+  - {fileID: -4595380966525278637}
+  - {fileID: 1104569424383491839}
+  - {fileID: -7747567316651152629}
+  - {fileID: 6202021824614692253}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -3715213648406745513}
+  StringsBanks:
+  - {fileID: 9040315193747737514}
+  cacheTime: 638278329647394311
+  cacheVersion: 131605
+--- !u!114 &54853756037749093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Tools/HammerToolHit
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Tools/HammerToolHit
+  Guid:
+    Data1: 1111951978
+    Data2: 1080162609
+    Data3: -368753013
+    Data4: 1091338459
+  Banks:
+  - {fileID: 4824339696154431763}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1544
+--- !u!114 &301419249732656315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DrillRun/DrillSpeed
+  m_EditorClassIdentifier: 
+  Name: DrillSpeed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2705317676
+    data2: 4032478154
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Normal
+  - Fast
+  Exists: 1
+--- !u!114 &369772461817560145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UpgradeUIAccept
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UpgradeUIAccept
+  Guid:
+    Data1: 1942519274
+    Data2: 1077197420
+    Data3: 171405735
+    Data4: 1972588149
+  Banks:
+  - {fileID: -3835193143139713569}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 575
+--- !u!114 &601682414194876543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/DrillWallDestructed
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/DrillWallDestructed
+  Guid:
+    Data1: -1808192402
+    Data2: 1121928308
+    Data3: 461038768
+    Data4: 1047826930
+  Banks:
+  - {fileID: -6190760815234920031}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 20
+  Length: 2160
+--- !u!114 &967893306635456777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Resources/Ore/OreShards
+  m_EditorClassIdentifier: 
+  Path: event:/Resources/Ore/OreShards
+  Guid:
+    Data1: 1362356720
+    Data2: 1291681990
+    Data3: 1344981130
+    Data4: 1396241356
+  Banks:
+  - {fileID: -3238743703292862907}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1331
+--- !u!114 &1104569424383491839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/BackgroundMusic
+  m_EditorClassIdentifier: 
+  Path: event:/Music/BackgroundMusic
+  Guid:
+    Data1: 2075695279
+    Data2: 1155693957
+    Data3: -1281199735
+    Data4: 1265155926
+  Banks:
+  - {fileID: 4243031595835567269}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 224000
+--- !u!114 &1226903339999826011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Tools/MiningBeam
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Tools/MiningBeam
+  Guid:
+    Data1: -933232776
+    Data2: 1204976273
+    Data3: -1043284835
+    Data4: 1027906438
+  Banks:
+  - {fileID: 4824339696154431763}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5350348711033339842}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11140
+--- !u!114 &1594618882269210305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drill/EngineFuel
+  m_EditorClassIdentifier: 
+  Path: event:/Drill/EngineFuel
+  Guid:
+    Data1: 931237989
+    Data2: 1271627965
+    Data3: 995479955
+    Data4: 255073162
+  Banks:
+  - {fileID: -2473913980354496695}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1740
+--- !u!114 &1933361326710470029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Resources/Sulphur/SulphurShards
+  m_EditorClassIdentifier: 
+  Path: event:/Resources/Sulphur/SulphurShards
+  Guid:
+    Data1: 115880691
+    Data2: 1215671679
+    Data3: 1128044975
+    Data4: -875586589
+  Banks:
+  - {fileID: -3238743703292862907}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1240
+--- !u!114 &2337325986164770498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/MainMenu
+  m_EditorClassIdentifier: 
+  Path: event:/Music/MainMenu
+  Guid:
+    Data1: 2051688925
+    Data2: 1339139224
+    Data3: 1929541526
+    Data4: 41027994
+  Banks:
+  - {fileID: 4243031595835567269}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 137962
+--- !u!114 &2668161088261657200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Charge
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Charge
+  Guid:
+    Data1: 891590357
+    Data2: 1149020728
+    Data3: 1579700352
+    Data4: 488505887
+  Banks:
+  - {fileID: -3715213648406745513}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &2940276815840301740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue
+  Guid:
+    Data1: 1002782676
+    Data2: 1284020189
+    Data3: -1618642296
+    Data4: -1401772088
+  Banks:
+  - {fileID: 6466389502722491845}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3211879883749185981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Resources/Ore/DestructStageOre
+  m_EditorClassIdentifier: 
+  Path: event:/Resources/Ore/DestructStageOre
+  Guid:
+    Data1: -250035442
+    Data2: 1141508334
+    Data3: 323351478
+    Data4: 1660284770
+  Banks:
+  - {fileID: -3238743703292862907}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &3316196543244316670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UpgradeUIDeny
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UpgradeUIDeny
+  Guid:
+    Data1: 1768270838
+    Data2: 1195458973
+    Data3: -736699975
+    Data4: -1059860986
+  Banks:
+  - {fileID: -3835193143139713569}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 596
+--- !u!114 &3407991839201535944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Upgrade/Drill Upgrade
+  m_EditorClassIdentifier: 
+  Path: event:/Upgrade/Drill Upgrade
+  Guid:
+    Data1: -2097832535
+    Data2: 1318244361
+    Data3: 1163307180
+    Data4: -841324003
+  Banks:
+  - {fileID: -3835193143139713569}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1740
+--- !u!114 &3535077676774118636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerWalk/Footsteps
+  m_EditorClassIdentifier: 
+  Name: Footsteps
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1056742295
+    data2: 524057108
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - GroundFloor
+  - MetalFloor
+  Exists: 1
+--- !u!114 &3944970069167614288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Resources/Blueprint
+  m_EditorClassIdentifier: 
+  Path: event:/Resources/Blueprint
+  Guid:
+    Data1: -1689278769
+    Data2: 1170741098
+    Data3: 472303546
+    Data4: 992557143
+  Banks:
+  - {fileID: -3238743703292862907}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5836
+--- !u!114 &4101771879456976893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Plant/Healthfruit PickUp
+  m_EditorClassIdentifier: 
+  Path: event:/Plant/Healthfruit PickUp
+  Guid:
+    Data1: -2015983885
+    Data2: 1314159432
+    Data3: -1379037249
+    Data4: -390694415
+  Banks:
+  - {fileID: -6190760815234920031}
+  - {fileID: -3238743703292862907}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4223575514193764894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Plant/SporePlant/SporePlant
+  m_EditorClassIdentifier: 
+  Path: event:/Plant/SporePlant/SporePlant
+  Guid:
+    Data1: 64050118
+    Data2: 1081660190
+    Data3: 1097120651
+    Data4: -825569153
+  Banks:
+  - {fileID: -6190760815234920031}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27726
+--- !u!114 &4243031595835567269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/TheDrillGame/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638278329646087323
+  FileSizes:
+  - Name: Desktop
+    Value: 5169920
+  Exists: 1
+--- !u!114 &4326860228372527667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UpgradeUIBack
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UpgradeUIBack
+  Guid:
+    Data1: 1080944750
+    Data2: 1255773271
+    Data3: -2084206153
+    Data4: 1870762958
+  Banks:
+  - {fileID: -3835193143139713569}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 590
+--- !u!114 &4414630860217550023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PlayerCough
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PlayerCough
+  Guid:
+    Data1: -28144351
+    Data2: 1323789550
+    Data3: 1724702341
+    Data4: 595902567
+  Banks:
+  - {fileID: 4824339696154431763}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &4824339696154431763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/TheDrillGame/Build/Desktop/Player.bank
+  Name: Player
+  StudioPath: bank:/Player
+  lastModified: 638278329646956179
+  FileSizes:
+  - Name: Desktop
+    Value: 1049280
+  Exists: 1
+--- !u!114 &5350348711033339842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MiningBeam/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 507314432
+    data2: 593038240
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - No Collision
+  - Collide
+  Exists: 1
+--- !u!114 &5608049327243071140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/DrillTunnel-Collapsing Wall
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/DrillTunnel-Collapsing Wall
+  Guid:
+    Data1: 1926085435
+    Data2: 1098514367
+    Data3: 375670439
+    Data4: -1345651994
+  Banks:
+  - {fileID: -6190760815234920031}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16000
+--- !u!114 &6202021824614692253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Tools/ChargeEnding
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Tools/ChargeEnding
+  Guid:
+    Data1: -1575235224
+    Data2: 1078267500
+    Data3: -1660525935
+    Data4: 977031174
+  Banks:
+  - {fileID: 4824339696154431763}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -7148826417525227850}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7284
+--- !u!114 &6466389502722491845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/TheDrillGame/Build/Desktop/Dialogue.bank
+  Name: Dialogue
+  StudioPath: bank:/Dialogue
+  lastModified: 638278329639953041
+  FileSizes:
+  - Name: Desktop
+    Value: 2980
+  Exists: 1
+--- !u!114 &6680022142462119820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drill/DrillHead
+  m_EditorClassIdentifier: 
+  Path: event:/Drill/DrillHead
+  Guid:
+    Data1: 1370736623
+    Data2: 1189358840
+    Data3: -1439207490
+    Data4: -878496248
+  Banks:
+  - {fileID: -2473913980354496695}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8517
+--- !u!114 &7106179820869437020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Resources/Crystal/CrystalShards
+  m_EditorClassIdentifier: 
+  Path: event:/Resources/Crystal/CrystalShards
+  Guid:
+    Data1: -153006637
+    Data2: 1277453724
+    Data3: 181278349
+    Data4: 585673826
+  Banks:
+  - {fileID: -3238743703292862907}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &7111729383557479038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UIAccept
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UIAccept
+  Guid:
+    Data1: -193428279
+    Data2: 1124206944
+    Data3: 1640723365
+    Data4: 326775902
+  Banks:
+  - {fileID: -3835193143139713569}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 225
+--- !u!114 &7423500977064695265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/PickUpSound
+  m_EditorClassIdentifier: 
+  Path: event:/UI/PickUpSound
+  Guid:
+    Data1: 363249088
+    Data2: 1154292906
+    Data3: -2068336736
+    Data4: -650070582
+  Banks:
+  - {fileID: -3835193143139713569}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 447
+--- !u!114 &7674844183342119636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Resources/Ore/OreDestructed
+  m_EditorClassIdentifier: 
+  Path: event:/Resources/Ore/OreDestructed
+  Guid:
+    Data1: -1853169425
+    Data2: 1161237565
+    Data3: -1335520073
+    Data4: 921262933
+  Banks:
+  - {fileID: -3238743703292862907}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1167
+--- !u!114 &8416681855270748516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Resources/Crystal/CrystalDestructed
+  m_EditorClassIdentifier: 
+  Path: event:/Resources/Crystal/CrystalDestructed
+  Guid:
+    Data1: 269433847
+    Data2: 1210666615
+    Data3: -1537748319
+    Data4: 323067518
+  Banks:
+  - {fileID: -3238743703292862907}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &8881778554180518688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Resources/Sulphur/DestructStageSulphur
+  m_EditorClassIdentifier: 
+  Path: event:/Resources/Sulphur/DestructStageSulphur
+  Guid:
+    Data1: -104106386
+    Data2: 1106295624
+    Data3: -74852720
+    Data4: -1321265730
+  Banks:
+  - {fileID: -3238743703292862907}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1020
+--- !u!114 &9040315193747737514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/TheDrillGame/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638278329641982275
+  FileSizes:
+  - Name: Desktop
+    Value: 3676
+  Exists: 1

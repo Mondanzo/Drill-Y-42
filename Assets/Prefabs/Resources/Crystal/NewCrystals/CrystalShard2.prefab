@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6036197801036986099
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 644d3f2482bdc8448b9d788ff7022152, type: 2}
+    - target: {fileID: 919132149155446097, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      propertyPath: m_Name
+      value: CrystalShard2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Items
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4429066350173126252}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3912964528445716652}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5345028324243062182}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7922995984492198749}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6350622245673173407}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4c20e22d566285f4e96024de0b89211f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1804752097095821288}
+  m_SourcePrefab: {fileID: 100100000, guid: 4c20e22d566285f4e96024de0b89211f, type: 3}
+--- !u!1 &6847028594812685218 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4c20e22d566285f4e96024de0b89211f,
+    type: 3}
+  m_PrefabInstance: {fileID: 6036197801036986099}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4429066350173126252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6847028594812685218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a35e8c669572e9642bb25637feade60e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemToGive: {fileID: 11400000, guid: cb2ab1c81eba5774193375350ed81dc3, type: 2}
+  audioClip: {fileID: 8300000, guid: 82f571049a9ae3a4d829849112031ce3, type: 3}
+--- !u!114 &3912964528445716652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6847028594812685218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194580cbc082d24aa21f33638d00be8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractionType: 1
+  Executed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4429066350173126252}
+        m_TargetAssemblyTypeName: DroppedItem, DrillGame.Runtime
+        m_MethodName: pickUpItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  InputBegan:
+    m_PersistentCalls:
+      m_Calls: []
+  InputEnded:
+    m_PersistentCalls:
+      m_Calls: []
+  toHighlight: []
+--- !u!54 &5345028324243062182
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6847028594812685218}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &7922995984492198749
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6847028594812685218}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.117382966, y: 0.29195613, z: 0.12755471}
+  m_Center: {x: -0.0024631396, y: 0.030378409, z: 0.0068379194}
+--- !u!135 &6350622245673173407
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6847028594812685218}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.2919562
+  m_Center: {x: -0.0024631396, y: 0.030378409, z: 0.0068379194}
+--- !u!114 &1804752097095821288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6847028594812685218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -153006637
+      Data2: 1277453724
+      Data3: 181278349
+      Data4: 585673826
+    Path: event:/Resources/Crystal/CrystalShards
+  Event: 
+  PlayEvent: 7
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 1
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20

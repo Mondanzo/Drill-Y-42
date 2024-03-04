@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3bd8a3c74a0c24e8fab4290249c78c, type: 3}
+  m_Name: Mining Tool
+  m_EditorClassIdentifier: 
+  mainUpgrade: {fileID: 11400000, guid: ec21a883eb6a959448028fc35e38b905, type: 2}
+  Enhancements:
+  - upgrades:
+    - {fileID: 11400000, guid: 659c4214fe3b99642adeff8ca70ea038, type: 2}
+    name: Collector Beam
+  - upgrades:
+    - {fileID: 11400000, guid: 15972bed09aea3b4996df196f7db11c5, type: 2}
+    - {fileID: 11400000, guid: 241c3c442ff43d34393a9ed51da908b6, type: 2}
+    - {fileID: 11400000, guid: 98a93d14fa3205c4c8a17adc3ebba8fa, type: 2}
+    name: Mining Efficiency
+  - upgrades:
+    - {fileID: 11400000, guid: 1ef14acafc8ff5d44ab492966b4f116b, type: 2}
+    - {fileID: 11400000, guid: 94c6f22d5dba8c740a1c30b4bdd28d25, type: 2}
+    - {fileID: 11400000, guid: 5d5eeb0c6ec5811459a58c77ff6e490f, type: 2}
+    name: Mining Speed
+  dontIncludeMainUpgrade: 1
+  upgradeType: 1

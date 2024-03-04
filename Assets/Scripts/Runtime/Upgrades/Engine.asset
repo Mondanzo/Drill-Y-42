@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3bd8a3c74a0c24e8fab4290249c78c, type: 3}
+  m_Name: Engine
+  m_EditorClassIdentifier: 
+  mainUpgrade: {fileID: 11400000, guid: 861c3b86c854d004ea59ac825489e3c2, type: 2}
+  Enhancements:
+  - upgrades:
+    - {fileID: 11400000, guid: a17265dd223ee314b89a364d6255118d, type: 2}
+    - {fileID: 11400000, guid: 371058921b18a6c42acd1d99c614bb6a, type: 2}
+    - {fileID: 11400000, guid: df7ff934405ce7c429c651c9a2c6fe64, type: 2}
+    name: Engine Efficiency
+  dontIncludeMainUpgrade: 1
+  upgradeType: 0

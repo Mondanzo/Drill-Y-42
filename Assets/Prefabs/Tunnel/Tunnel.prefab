@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3271456022250109624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2979094774416462280}
+  - component: {fileID: 1345244800517309737}
+  - component: {fileID: 9135835510765196689}
+  m_Layer: 0
+  m_Name: Tunnel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2979094774416462280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3271456022250109624}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1345244800517309737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3271456022250109624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca085c0a3368ac4429b3f1ee41148bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generateableSegments:
+  - {fileID: 4396862504731261463, guid: 4caa654b75bd0494e9171d1551832c08, type: 3}
+  - {fileID: 5046913456030560957, guid: f73ea0270cba17d489d8f4e2ba0bbb16, type: 3}
+  - {fileID: 964633061398941048, guid: f6404e055322c09428d6275c759e5c74, type: 3}
+  - {fileID: 772638613430329337, guid: c8dbeebe2fcf1864f8f84c7be09e9058, type: 3}
+  safeCaves:
+  - {fileID: 4187430711873470836, guid: 5ae7ee77fc04ea04288905e63fae6dbc, type: 3}
+  safeCaveCooldown: 8
+  possibleSettings:
+  - {fileID: 11400000, guid: 3fa46333d568ad44cbf292b740935008, type: 2}
+  segmentsTilNext: 6
+  DestructibleWall: {fileID: 4315209862258416393, guid: 469752a4d3c8fe04da2721a8230138a2,
+    type: 3}
+  dstructibleWallsPoolSize: 2
+  destructibleOffset: 10
+  CollapsingWall: {fileID: 5649190067390620957, guid: 5a4d2533874bca442a43e979fa516ed4,
+    type: 3}
+  collapsingWallSpeedModifierBasedOnDistanceToPlayer:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  collapsableOffset: -300
+  collapsingWallMetersPerSecond: 0.0005
+  doCollapse: 0
+  moveBackThreshhold: 5000
+  NextSafeCaveCooldown: 8
+--- !u!114 &9135835510765196689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3271456022250109624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be9afc5371258dd4292901459e1f1d7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectsToMoveBack: []

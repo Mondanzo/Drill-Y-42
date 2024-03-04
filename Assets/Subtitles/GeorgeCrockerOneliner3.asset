@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ee6f9592a856754a910ce2165144587, type: 3}
+  m_Name: GeorgeCrockerOneliner3
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: f152c84fce0122d41a1aff6b5c9b462f, type: 3}
+  subtitles:
+  - subtitleText: Hello there.
+    startTime: 0
+    endTime: 2
+  - subtitleText: Need my workshop again, do ya?
+    startTime: 2
+    endTime: 3
+  - subtitleText: How many times ye visited me yet?
+    startTime: 4
+    endTime: 6
+  - subtitleText: "I failed math so many times at school, I can\u2019t even count."
+    startTime: 7
+    endTime: 11

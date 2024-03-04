@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2118d2d9eefe8046ad7dd39d9c44edf, type: 3}
+  m_Name: Engine Efficiency Upgrade III
+  m_EditorClassIdentifier: 
+  upgradeCosts:
+  - item: {fileID: 11400000, guid: 38ecb0d8a84d3324aa438b8beb495566, type: 2}
+    value: 100
+  UpgradeName: Engine Efficiency Upgrade
+  UpgradeDescription: Improve your Engine for better Perormance. Your Drill will
+    need less Crystals to keep running.
+  Id: EngineEfficiencyUpgrade1
+  UpgradeImage: {fileID: 21300000, guid: 755a7cf191217454c89e00cc2f3cdf7f, type: 3}
+  upgradeType: 0
+  efficiencyMultiplier: 0.9

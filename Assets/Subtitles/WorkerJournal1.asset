@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ee6f9592a856754a910ce2165144587, type: 3}
+  m_Name: WorkerJournal1
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 2866b99ac0c4bc143b81534907cb704c, type: 3}
+  subtitles:
+  - subtitleText: Journal log. Day 65 since I began working in this dirty hole.
+    startTime: 0
+    endTime: 5
+  - subtitleText: "I have the feeling my coworkers are getting more\u2026 aggressive."
+    startTime: 5
+    endTime: 9
+  - subtitleText: "Sure, they\u2019ve always been rough fellas but\u2026"
+    startTime: 9
+    endTime: 12
+  - subtitleText: they are fighting more often, hurting each other.
+    startTime: 12
+    endTime: 15
+  - subtitleText: "This place messes with everyone\u2019s mind."
+    startTime: 15
+    endTime: 18

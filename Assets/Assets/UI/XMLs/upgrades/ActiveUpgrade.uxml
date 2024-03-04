@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Assets/UI/Stylesheets/GenericFrame.uss?fileID=7433441132597879392&amp;guid=2c434ea7593ad8c4d98b004624033d64&amp;type=3#GenericFrame" />
+    <Style src="project://database/Assets/Assets/UI/Stylesheets/GenericButton.uss?fileID=7433441132597879392&amp;guid=2d9758806eaa1ea43b96ab4a7df49e7f&amp;type=3#GenericButton" />
+    <ui:VisualElement name="ActiveUpgrade" class="frame" style="flex-grow: 1; margin-left: 5px; margin-right: 0; padding-left: 10px; padding-top: 5px; padding-bottom: 5px; padding-right: 10px; flex-direction: row-reverse; flex-basis: auto; flex-wrap: nowrap; flex-shrink: 1; height: 100%;">
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 125px; max-height: none; align-self: auto; align-items: center; justify-content: center;">
+            <ui:Label tabindex="-1" text="Upgrade to Level 1" display-tooltip-when-elided="true" name="InformationContainer_NextgUpgrade" class="title" style="-unity-font-style: bold-and-italic; padding-bottom: 0; padding-top: 0; margin-top: 0; margin-bottom: 0;" />
+            <ui:VisualElement name="InformationContainer_requiredItemsContainer" style="background-color: rgba(0, 0, 0, 0); flex-direction: row;" />
+            <ui:Button text="Craft" display-tooltip-when-elided="true" name="InformationContainer_CraftButton" focusable="false" class="button" style="color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 0; max-height: none; align-self: auto; align-items: center; justify-content: center;">
+            <ui:Label tabindex="-1" text="Not Active" display-tooltip-when-elided="true" name="InformationContainer_Level" class="title" style="-unity-font-style: bold; padding-bottom: 0; padding-top: 0; margin-top: 0; margin-bottom: 0;" />
+            <ui:Label tabindex="-1" text="The Drill" display-tooltip-when-elided="true" name="InformationContainer_Name" class="title" style="-unity-font-style: bold-and-italic; padding-bottom: 0; padding-top: 0; margin-top: 0; margin-bottom: 0;" />
+            <ui:VisualElement name="InformationContainer_Image" style="background-color: rgba(0, 0, 0, 0); min-width: 102px; min-height: 64px; background-image: url(&apos;project://database/Assets/Assets/UI/Iconware/drill.png?fileID=2800000&amp;guid=755a7cf191217454c89e00cc2f3cdf7f&amp;type=3#drill&apos;); -unity-background-scale-mode: scale-to-fit; justify-content: flex-start; align-items: auto; align-self: auto; margin-top: 30px; margin-bottom: 30px; flex-direction: column-reverse;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

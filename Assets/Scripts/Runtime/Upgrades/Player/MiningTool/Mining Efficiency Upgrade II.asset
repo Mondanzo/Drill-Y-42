@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f15955553cea38488c9d746098830bb, type: 3}
+  m_Name: Mining Efficiency Upgrade II
+  m_EditorClassIdentifier: 
+  upgradeCosts:
+  - item: {fileID: 11400000, guid: cb2ab1c81eba5774193375350ed81dc3, type: 2}
+    value: 50
+  UpgradeName: Mining Efficiency Upgrade
+  UpgradeDescription: Improve your Mining Tool to harvest more Resources!
+  Id: 
+  UpgradeImage: {fileID: 0}
+  upgradeType: 1
+  OreMiningMultiplier: 1.2

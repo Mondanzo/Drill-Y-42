@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="InformationContainer_Image" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); max-width: 62px; max-height: 25px; min-height: 59px; min-width: 70px; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; background-image: url(&apos;project://database/Assets/Assets/UI/Iconware/lgbtqCrystal1.png?fileID=2800000&amp;guid=eef4a6b26acb74946b170cb5e590875f&amp;type=3#lgbtqCrystal1&apos;); -unity-background-scale-mode: scale-to-fit;">
+            <ui:Label tabindex="-1" text="6" display-tooltip-when-elided="true" name="InformationContainer_ItemCount" style="color: rgb(255, 255, 255); margin-right: 18px; -unity-text-align: upper-right; top: 14px; margin-left: 10px; margin-top: 12px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

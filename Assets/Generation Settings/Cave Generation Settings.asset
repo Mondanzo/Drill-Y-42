@@ -1,0 +1,333 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e661a841f30109649b69de4f880a0cde, type: 3}
+  m_Name: Cave Generation Settings
+  m_EditorClassIdentifier: 
+  minGenerationCurrency: 6.736842
+  maxGenerationCurrency: 20.210526
+  minRarity: 0
+  maxRarity: 0
+  Danger:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.0077539417
+      outSlope: 0.0077539417
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.38020834
+    - serializedVersion: 3
+      time: 0.8
+      value: 0.2
+      inSlope: 0.5695755
+      outSlope: 0.5695755
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.6666667
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CurvatureSettings:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 400
+      value: -0.2
+      inSlope: -0.002562857
+      outSlope: -0.002562857
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.17094019
+    - serializedVersion: 3
+      time: 1000
+      value: -0.9904785
+      inSlope: -0.000041290255
+      outSlope: -0.000041290255
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.23076917
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CollapsingWallShakeImpact:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0.002
+      outSlope: -0.0033333334
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 300
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  minValueModifier: 1
+  maxValueModifier: 1.5
+  LootProbability:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  OreRarities:
+  - {fileID: 11400000, guid: f18ab3743626e92459af5bade61b40f5, type: 2}
+  - {fileID: 11400000, guid: 43e4bf58a25440d4d8f3e8d52713e4e2, type: 2}
+  - {fileID: 11400000, guid: f8c815b4550730e419285c6eb3edc19f, type: 2}
+  - {fileID: 11400000, guid: 1fea99b70ea0c5e47b6125c2a464634d, type: 2}
+  - {fileID: 11400000, guid: 48d1cec03026fd04998402cd073917b3, type: 2}
+  PossibleSegments:
+  - {fileID: 5841213304042264287, guid: add4a324edb0c9e4abdacc7a8b160dbe, type: 3}
+  - {fileID: 6140528484255811222, guid: 45b8cce32b9f47847b912597f94ed57f, type: 3}
+  - {fileID: 4990205092081969245, guid: cca720cf29fb89743948c17b996162cb, type: 3}
+  - {fileID: 4831697684023762567, guid: e1f3c8829d781974abdc8807a94842ac, type: 3}
+  - {fileID: 9160845151573115077, guid: 5e1648dc8cf47ce47bd0383615221068, type: 3}
+  BiomeProbability:
+  - Biome: {fileID: 11400000, guid: 75d16d7b26ef9e543932ff74b69f030f, type: 2}
+    Probability:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  ResourceProbabilities:
+  - Type: 0
+    Probability:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.5
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0.6
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Limits:
+      minValueLimit: 0
+      maxValueLimit: 6
+      expanded: 1
+      minValue: 1
+      maxValue: 1
+  - Type: 1
+    Probability:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.1933899
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0.86792755
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Limits:
+      minValueLimit: 0
+      maxValueLimit: 6
+      expanded: 1
+      minValue: 2
+      maxValue: 5
+  - Type: 2
+    Probability:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.25
+        value: 0.35
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.44871795
+      - serializedVersion: 3
+        time: 0.75
+        value: 0.15
+        inSlope: -0
+        outSlope: -0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.40598285
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.5
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Limits:
+      minValueLimit: 0
+      maxValueLimit: 6
+      expanded: 1
+      minValue: 1
+      maxValue: 1
+  - Type: 3
+    Probability:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.6
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.7
+        value: 0.15
+        inSlope: -0.9899644
+        outSlope: -0.9899644
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.34472942
+      - serializedVersion: 3
+        time: 0.9
+        value: 0.35
+        inSlope: 4.875
+        outSlope: 4.875
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.2735042
+      - serializedVersion: 3
+        time: 1
+        value: 0.5
+        inSlope: 2.3214285
+        outSlope: 2.3214285
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.17094016
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Limits:
+      minValueLimit: 0
+      maxValueLimit: 6
+      expanded: 1
+      minValue: 1
+      maxValue: 1

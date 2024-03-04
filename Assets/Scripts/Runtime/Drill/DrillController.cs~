@@ -1,0 +1,139 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.Serialization;
+
+
+public class DrillController : MonoBehaviour {
+	private float speed = 1f;
+
+	private int gear = 1;
+
+	public float Fuel = 50;
+	private float fuelConsumption = 1;
+
+	private float timePassed = 0f;
+	private float timeSteps = 1f;
+
+	private DrillData drillData;
+
+	public float drillDistance;
+
+	public UnityEvent onDrillEmpty;
+
+	private bool isDrillRepairedFirstTime = true;
+	public UnityEvent OnDrillRepairedFirstTime;
+	private bool isDrillRefueledFirstTime = true;
+	public UnityEvent OnDrillRefueledFirstTime;
+
+	private AudioSource audioSource;
+	private List<Spin> spins;
+	private TankTracks tracks;
+
+	public bool drillHalted = false;
+
+	private void Start() {
+		drillData = GetComponent<DrillData>();
+		audioSource = GetComponent<AudioSource>();
+		spins = GetComponents<Spin>().ToList();
+		tracks = GetComponentInChildren<TankTracks>();
+	}
+
+	private void FixedUpdate() {
+		if (drillData.IsDrillRepaired == false) {
+			audioSource.Pause();
+
+			foreach (var spin in spins) {
+				spin.accelerate = false;
+			}
+
+			return;
+		}
+
+		if (isDrillRepairedFirstTime) {
+			// only call this code once up the first time the drill is repaired
+			if (OnDrillRepairedFirstTime != null) {
+				OnDrillRepairedFirstTime.Invoke();
+			}
+
+			foreach (var spin in spins) {
+				spin.accelerate = true;
+			}
+			
+			isDrillRepairedFirstTime = false;
+		}
+
+		speed = drillData.BaseSpeed * gear;
+		fuelConsumption = drillData.BaseFuelConsumption * gear;
+
+		if (hasEnoughFuel() && !drillHalted) {
+			MoveForward();
+
+			ConsumeFuel();
+			audioSource.UnPause();
+			drillDistance += Time.deltaTime * speed;
+
+			tracks.StartTracks();
+		} else {
+			audioSource.Pause();
+			onDrillEmpty.Invoke();
+			tracks.StopTracks();
+		}
+	}
+
+
+	public void SetDrillHalt(bool newState) {
+		drillHalted = newState;
+		foreach (var spin in spins) {
+			spin.accelerate = !newState;
+		}
+	}
+
+
+	private bool hasEnoughFuel() {
+		return Fuel > 0;
+	}
+
+	private void ConsumeFuel() {
+		timePassed += Time.deltaTime;
+
+		if (timePassed > timeSteps) {
+			Fuel -= fuelConsumption;
+			timePassed = 0;
+		}
+	}
+
+	public void AddFuel(float newFuel) {
+		if (isDrillRefueledFirstTime) {
+			OnDrillRefueledFirstTime?.Invoke();
+			isDrillRefueledFirstTime = false;
+		}
+
+		Fuel += newFuel;
+	}
+
+	private void MoveForward() {
+		transform.Translate(transform.forward * -1 * Time.deltaTime * speed);
+	}
+
+	public void ChangeGear() {
+		// gear gets switched higher and higher until it start from the lowest position again
+		gear++;
+
+		if (gear > drillData.MaxGear) {
+			gear = 1;
+		}
+		// visual change => min rotation degree and max rotation degree and simply move it between available gears?
+	}
+
+	private void OnGUI() {
+		GUILayout.BeginArea(new Rect(0, 300, 700, 700));
+		GUILayout.Label("Drill Fuel: " + Fuel + " Fuel Consumption Per Second: " + fuelConsumption);
+		GUILayout.Label("Gear Level: " + gear + " Actual Speed: " + speed);
+		GUILayout.Label("Drill Distance: " + drillDistance);
+		GUILayout.EndArea();
+	}
+}

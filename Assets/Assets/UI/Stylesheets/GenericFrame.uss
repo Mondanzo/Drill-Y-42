@@ -1,0 +1,30 @@
+.frame {
+    background-color: rgba(26, 26, 24, 0.33);
+    -unity-background-scale-mode: stretch-to-fill;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.container {
+    min-height: 369px;
+    min-width: 567px;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold-and-italic;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.closed {
+    transition-property: opacity;
+    transition-duration: 200ms;
+    opacity: 0;
+}
+
+.max-size-y {
+    height: 100%;
+}

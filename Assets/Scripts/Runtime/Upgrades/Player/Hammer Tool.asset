@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 029b9b1c6119d61438147cfc34db0cc0, type: 3}
+  m_Name: Hammer Tool
+  m_EditorClassIdentifier: 
+  upgradeCosts:
+  - item: {fileID: 11400000, guid: 38ecb0d8a84d3324aa438b8beb495566, type: 2}
+    value: 10
+  - item: {fileID: 11400000, guid: a1d39a58d2af2444b9422afd3dff0025, type: 2}
+    value: 2
+  UpgradeName: Hammer Tool Upgrade
+  UpgradeDescription: Own a new Powerful Tool that was used back in the Days! Press
+    LMB to use your Hammer to destroy. Hold LMB to perform a powerful Charge to destroy
+    anything in your way.
+  Id: HammerTool
+  UpgradeImage: {fileID: 21300000, guid: f4c1c713856d2d0478005d88309c1153, type: 3}
+  upgradeType: 1

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Main" style="background-color: rgb(26, 26, 26); width: 128px; height: 128px; top: 80%; left: 2%; justify-content: flex-end;">
+        <ui:VisualElement name="HealthBar" style="background-color: rgb(151, 255, 155); height: 100%; flex-direction: column-reverse; justify-content: flex-start; align-items: stretch; flex-grow: 0; flex-basis: auto;" />
+    </ui:VisualElement>
+</ui:UXML>
