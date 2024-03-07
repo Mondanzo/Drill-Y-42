@@ -4,7 +4,7 @@
 
 # About
 
-Step into Akai’s world of calm exploration, discovering a cozy gaming adventure! Cozy Tales is more than just a game; it's a comforting escape into a serene and charming world. Here, players are invited to immerse themselves in a peaceful adventure, turning maps into stories and guiding future adventurers.
+In this steampunk themed endless runner, you explore a long forgotten mine and pierce your way deeper through the tunnels with a gigantic drill machine. But beware: the tunnel is collapsing behind you! Gather resources, craft upgrades and keep your drill running before you get buried. Oh, and say hello to old George Crocker if you meet him.
 
 ## Key Informations:
 Engine: Unity 2022.3.1f1
